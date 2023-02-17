@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .node {
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px;
+    text-align: center;
+  }
+  
+  .children {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .child {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
